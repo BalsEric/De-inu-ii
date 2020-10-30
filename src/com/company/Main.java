@@ -1,23 +1,28 @@
-import com.mongodb.MongoClient;
-import com.mongodb.MongoClientURI;
-import com.mongodb.ServerAddress;
+package com.company;
+package com.mongodb.MongoClient;
+package com.mongodb.MongoClientURI;
+package com.mongodb.ServerAddress;
 
-import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.MongoCollection;
+package com.mongodb.client.MongoDatabase;
+package com.mongodb.client.MongoCollection;
 
-import org.bson.Document;
-import java.util.Arrays;
-import com.mongodb.Block;
+package org.bson.Document;
+package java.util.Arrays;
+package com.mongodb.Block;
 
-import com.mongodb.client.MongoCursor;
-import static com.mongodb.client.model.Filters.*;
-import com.mongodb.client.result.DeleteResult;
-import static com.mongodb.client.model.Updates.*;
-import com.mongodb.client.result.UpdateResult;
-import java.util.ArrayList;
-import java.util.List;
+package com.mongodb.client.MongoCursor;
+package static com.mongodb.client.model.Filters.*;
+package com.mongodb.client.result.DeleteResult;
+package static com.mongodb.client.model.Updates.*;
+package com.mongodb.client.result.UpdateResult;
+package java.util.ArrayList;
+packaget java.util.List;
 
-public class program {
+public class Main {
+
+    public static void main(String[] args) {
+	// write your code here
+    }
     public static void Connect(){
         MongoClient mongoClient = new MongoClient(new MongoClientURI("mongodb+srv://eric:ventilator1@cluster0.kcufg.mongodb.net/Detinuti?retryWrites=true&w=majority"));
         DB database = mongoClient.getDB("Detinuti");
